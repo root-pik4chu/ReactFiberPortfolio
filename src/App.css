@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+@font-face {
+   font-family: f1;
+   src: url(./font/f1.ttf);
+}
+@font-face {
+   font-family: f2;
+   src: url(./font/f2.ttf);
+}
+@font-face {
+   font-family: f3;
+   src: url(./font/Ogg-LightItalic-BF646c18fc3aa5c.ttf);
+}
+@font-face {
+   font-family: f4;
+   src: url(./font/HELVETICA-BOLD.TTF);
+}
+body{
+height: 100%;
+width: 100%;
+/* font-family: f1; */
+}
+.app{
+   width: 100%;
+   height: 100vh;
+   background: #000;
+}
+
+.char {
+   transition: font-variation-settings 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+ }
