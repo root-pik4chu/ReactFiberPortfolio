@@ -96,7 +96,7 @@ function Sphere({ position, vec = new THREE.Vector3(), targetScale = 1, color = 
   useFrame((state, delta) => {
     delta = Math.min(0.1, delta)
     // Smoothly animate scale using easing
-    easing.damp(scale, 'current', targetScale, 0.25, delta)
+    easing.damp(scale, 'current', targetScale, 0.15, delta)
     ref.current.scale.set(scale.current, scale.current, scale.current)
 
     // Enhance interaction by applying a stronger impulse

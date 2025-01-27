@@ -1,9 +1,13 @@
 import React from 'react'
 import { Link, Links } from 'react-router-dom'
 import icon from "./icoon.svg" 
+import { easeIn, motion } from 'framer-motion'
+
 const NavBar = () => {
   return (
-    <div className=' font-[f2]  text-white text-sm w-[94%] absolute top-0 left-1/2 transfrom -translate-x-1/2  h-[5vw]  z-20 grid grid-cols-12 text-[.7vw]'>
+    <motion.div
+   
+    className=' font-[f2]  text-white text-sm w-[94%] absolute top-0 left-1/2 transfrom -translate-x-1/2  h-[5vw]  z-20 grid grid-cols-12 text-[.7vw]'>
       
       <div className="col-span-1 col-start-1 flex items-end text-xl leading-none">root <br /> Pik@chu</div>
       
@@ -36,7 +40,7 @@ const NavBar = () => {
      
       </ul>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
