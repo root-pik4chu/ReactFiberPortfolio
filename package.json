@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "./",
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@react-icons/all-files": "^4.1.0",
