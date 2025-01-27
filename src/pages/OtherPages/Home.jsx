@@ -19,7 +19,8 @@ const Home = () => {
             <motion.div
             initial={{opacity:0}}
             animate={{opacity:1}}
-            transition={{duration:3, easings:easeIn}}
+            exit={{opacity:0}}
+            transition={{duration:1, easings:easeIn}}
             className="">
             <h1 className='text-[6vw] font-medium font-[f3] mix-blend-difference'>Creative</h1>
             <h1 className='text-[6vw]  relative bottom-15 tracking-tight font-medium font-[f4] mix-blend-difference'>Developer</h1>
@@ -29,7 +30,8 @@ const Home = () => {
               <motion.div
                 initial={{opacity:0}}
                 animate={{opacity:1}}
-                transition={{duration:3 , easings:easeIn}}
+                exit={{opacity:0}}
+                transition={{duration:1 , easings:easeIn}}
                 
               className=" text-[.7vw] font-300 leading-none ">
                 <h1 className=" leading-tight  mix-blend-difference">
